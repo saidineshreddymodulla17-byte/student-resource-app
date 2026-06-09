@@ -1,0 +1,71 @@
+.hero {
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 800px;
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.secondary {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 300px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.feature-card h3 {
+  margin: 15px 0;
+}

@@ -1,0 +1,44 @@
+.resources-page{
+ padding:40px;
+}
+
+.search-input{
+ width:100%;
+ padding:14px;
+ border:none;
+ border-radius:12px;
+ margin:20px 0;
+}
+
+.resource-grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+ gap:20px;
+}
+
+.resource-card{
+ background:white;
+ padding:20px;
+ border-radius:16px;
+ box-shadow:0 5px 20px rgba(0,0,0,.08);
+ transition:.3s;
+}
+
+.resource-card:hover{
+ transform:translateY(-5px);
+}
+
+.tag{
+ display:inline-block;
+ background:#dbeafe;
+ color:#2563eb;
+ padding:6px 12px;
+ border-radius:20px;
+ margin:10px 0;
+}
+
+.resource-actions{
+ display:flex;
+ gap:10px;
+ margin-top:15px;
+}

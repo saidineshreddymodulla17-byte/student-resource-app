@@ -1,0 +1,36 @@
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: #0f172a;
+  padding: 25px;
+}
+
+.sidebar-logo {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 18px;
+}
+
+.sidebar-menu a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.sidebar-menu a:hover {
+  color: white;
+  padding-left: 8px;
+}
