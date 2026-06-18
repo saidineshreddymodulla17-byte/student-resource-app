@@ -41,3 +41,20 @@
  border:none;
  border-radius:12px;
 }
+.user {
+  text-align: right;
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 70%;
+  margin-left: auto;
+}
+
+.bot {
+  text-align: left;
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 70%;
+}
